@@ -41,6 +41,8 @@ P.S. For creating a UUID you can use a generator (e.g [uuidgenerator](https://ww
 
 Result: in the response, you see a created EHR with structured data in JSON format. Also in the response, you see other important information (e.g fields like ehr_id, ehr_status, ehr_access, time_created that help you to work with EHR in the future requests)
 
+[Watch video instruction](https://media.bsn.si/ipehr/Create_basic_EHR.mp4) 📹 
+
 ### Create EHR with subject_id and subject_namespace params
 1. Click `PUT ​/ehr​/{ehr_id}` [Create EHR](https://gateway.ipehr.org/swagger/index.html#/EHR/post_ehr) method
 1. Click `Try it out`
@@ -51,6 +53,8 @@ Result: in the response, you see a created EHR with structured data in JSON form
 1. Click `Execute`
 
 Result: in the response, you see a created EHR with structured data in JSON format. Also in the response, you see other important information (e.g fields like ehr_id, ehr_status, ehr_access, time_created that help you to work with EHR in future requests). There are no subject_id and subject_space fields, they can be only requested with GET request
+
+[Watch video instruction](https://media.bsn.si/ipehr/create_with_different_parameters.mp4) 📹 
 
 ### Create EHR with id
 1. Click `PUT /ehr​/{ehr_id}` [Create EHR with id](https://gateway.ipehr.org/swagger/index.html#/EHR/put_ehr__ehr_id_) method
@@ -73,6 +77,8 @@ Precondition: [Create EHR with subject_id and subject_namespace](https://github.
 
 Result: in the response, you see created before EHR with the requested `subject_id` and `subject_namespace`. Here you can find exact EHR without ehr_id.
 
+[Watch video instruction](https://media.bsn.si/ipehr/get_ehr_by_subject_id.mp4) 📹 
+
 ### Getting info on created EHR summary by id
 
 Precondition: [EHR was created](https://github.com/bsn-si/IPEHR-gateway/wiki/IPEHR-project/_edit#create-an-ehr-1) and ehr_id is copied to a buffer
@@ -82,6 +88,8 @@ Precondition: [EHR was created](https://github.com/bsn-si/IPEHR-gateway/wiki/IPE
 1. Click `Execute`
 
 Result: in the response, you see created before EHR which was found with `ehr_id`
+
+[Watch video instruction](https://media.bsn.si/ipehr/get_by_summary_id.mp4) 📹 
 
 ### Getting info on EHR status version by time
 
